@@ -1,4 +1,4 @@
-   html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure {
+ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure {
     margin: 0;
     padding: 0;
 }
@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-bottom: 8px;
 	color: #867E7E;
+	text-transform: uppercase;
 }
 #block-nw-home-featured-stories .related {
     font-size: 17px;
@@ -75,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 #block-nw-home-featured-stories .related a{
     color: black;
 	text-decoration: none;
+	
 }
 
 #block-nw-home-featured-stories .related a:hover{
@@ -496,12 +498,10 @@ block-nw-section-picks .sp h4{
 	border: 1px solid #E2DCDC;
 	border-width: 0 0 1px 0;
 	padding: 0 0 15px 0; 
-    margin: 0 10px 10px 0;
 }
 .help:last-child{
 	padding: 0 0 15px 0; 
-    margin: 0 10px 10px 0;
-	border-width: 0 0 1px 0;
+    border-width: 0 0 1px 0;
 	border: 1px solid rgb(255, 255, 255);
 }
 #block-nw-section-picks .info a{
@@ -516,7 +516,65 @@ block-nw-section-picks .sp h4{
 	color: red;
     text-decoration: none;
 }
+#block-nw-section-picks article a:last-child{
+	
+	color: black;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 21px;
+	font-family: "Roboto Condensed", sans-serif;
+}
 
+#block-nw-section-picks article a:last-child:hover{
+	text-decoration-color: red;
+	
+}
+#block-fusion-arbitrage-picture-galleries article a:last-child:hover{
+	text-decoration-color: red;
+	color: black;
+}
+#block-fusion-arbitrage-picture-galleries article a:last-child:hover{
+	text-decoration: none;
+	color: red;
+}
+#block-nw-nw-footer-subscription-hp .block-title{
+	color: #f72210;
+	font: bold 18px "Roboto Condensed",sans-serif;
+	text-transform: uppercase;
+}
+#block-nw-nw-footer-subscription-hp .items{
+	background-color: #f4f5f6;
+	//margin-bottom: 15px;
+}
+
+
+
+
+
+#block-ibtmedia-top-stories-top-stories .block-title a{
+	color: #867E7E;
+	text-transform: uppercase;
+}
+#block-ibtmedia-top-stories-top-stories .block-title a:hover{
+	text-decoration: none;
+}
+#most_popular_widget .row{
+	border: 1px solid #E2DCDC;
+	border-width: 1px 0 0 0;
+	padding: 15px 0 15px 0; 
+}
+#most_popular_widget .item-link a{
+	color: black;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21px;
+	font-family: "Roboto Condensed", sans-serif;
+	
+}
+#most_popular_widget .item-link a:hover{
+	color: red;
+    text-decoration: none;
+}
 
 @media screen and (min-width: 768px)
 h3 {
@@ -542,3 +600,25 @@ body {
     width: 71%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
